@@ -57,7 +57,7 @@ article.top {
   justify-content: end;
   text-align: center;
   padding-top: 20px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -71,11 +71,30 @@ article.top {
   margin: 20px;
 
   width: 40%;
-  max-width: 200px;
+  max-width: 300px;
   min-height: 400px;
   display: inline-block;
   position: relative;
   /* border: 2px solid lightcyan; */
+}
+
+.join {
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  color: black;
+  background: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 40px;
+  /* display: inline-block; */
+  display: inline-block;
+}
+.button:hover {
+  background: #8eaced;
+  transition-duration: 0.5s;
 }
 
 * {
