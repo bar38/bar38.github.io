@@ -5,8 +5,7 @@ body {
   padding: 0;
 }
 body {
-  background: url(bg.png) bottom center repeat-x,
-    linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  background: #131010;
   background-attachment: fixed;
   color: #fff;
   position: relative;
@@ -59,6 +58,12 @@ article.top {
   padding-top: 20px;
   max-width: 1200px;
   margin: auto;
+}
+
+.menuimg {
+  width: 250px;
+  height: auto;
+  margin: 10px;
 }
 
 .menuCard {
