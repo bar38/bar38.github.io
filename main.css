@@ -5,8 +5,8 @@ body {
   padding: 0;
 }
 body {
-  background: url(bg.png) bottom center repeat-x,
-    linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  /* background: #131010; */
+  background-color: #222;
   background-attachment: fixed;
   color: #fff;
   position: relative;
@@ -57,8 +57,28 @@ article.top {
   justify-content: end;
   text-align: center;
   padding-top: 20px;
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
+  /* display: flex; */
+  display: flex;
+}
+
+/* .menuimg {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+} */
+
+.menuimg {
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+.menuData {
+  width: 400px;
+  border-bottom: dotted 1px gray;
+  margin: 5px;
 }
 
 .menuCard {
