@@ -41,6 +41,10 @@ h1 {
   color: #fff;
 }
 
+a{
+  text-decoration: none;
+}
+
 article.top {
   padding-top: 200px;
 }
