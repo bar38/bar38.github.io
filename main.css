@@ -75,10 +75,16 @@ article.top {
   margin: 10px;
 }
 
+.menuRow{
+  display: block;
+
+}
+
 .menuData {
   width: 400px;
   border-bottom: dotted 1px gray;
   margin: 5px;
+  display: inline-block;
 }
 
 .menuCard {
