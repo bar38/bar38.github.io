@@ -5,5 +5,3 @@
 - [Adobe color](https://color.adobe.com/create/color-wheel)
 - [素人でもプロ並みの配色ができるデザインパターン参考サイト 21 選](https://blog.codecamp.jp/color_pattern)
 - [#00426D のカラーボックス](https://ironodata.info/rgb.php?color=00426D)
-
-http://www.memofc.tk/bar38.github.io/.
