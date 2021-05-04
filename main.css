@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   color: #fff;
   position: relative;
+  line-height:1.8;
 }
 
 header {
@@ -48,6 +49,11 @@ h1 {
   font-family: "Merriweather", serif;
   font-size: 5rem;
   color: #fff;
+}
+
+h2{
+  padding-top:50px;
+  padding-bottom:60px;
 }
 
 a{
