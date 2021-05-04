@@ -20,6 +20,15 @@ header {
   /* display: inline-block; */
 }
 
+header span{
+  /* border:10px; */
+  /* margin:10px; */
+  padding:10px;
+  margin-top:10px;
+  padding-top:10px;
+  display:inline-block;
+}
+
 /* h1 {
   position: absolute;
   top: 50%;
@@ -44,6 +53,9 @@ h1 {
 a{
   text-decoration: none;
 }
+
+a:link {color:#000000;} /*未訪問のリンクの色*/
+a:visited {color:#000000;} /*訪問済みのリンクの色*/
 
 article.top {
   padding-top: 200px;
@@ -117,7 +129,8 @@ article.top {
   color: black;
   background: #fff;
   padding: 20px;
-  margin: 20px;
+  margin-top: 50px;
+  margin-bottom:200px;
   border-radius: 40px;
   /* display: inline-block; */
   display: inline-block;
