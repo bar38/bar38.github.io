@@ -156,3 +156,7 @@ article.top {
 * {
   box-sizing: border-box;
 }
+
+.changeFingerMark{
+  cursor : pointer;
+}
