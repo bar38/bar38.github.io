@@ -1,0 +1,46 @@
+/* the props */
+@import "https://unpkg.com/open-props";
+
+/* optional imports that use the props */
+@import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
+
+/* just dark or light themes */
+@import "https://unpkg.com/open-props/normalize.dark.min.css";
+@import "https://unpkg.com/open-props/buttons.dark.min.css";
+@import "https://unpkg.com/open-props/normalize.light.min.css";
+@import "https://unpkg.com/open-props/buttons.light.min.css";
+
+/* individual imports */
+@import "https://unpkg.com/open-props/indigo.min.css";
+@import "https://unpkg.com/open-props/indigo-hsl.min.css";
+@import "https://unpkg.com/open-props/easings.min.css";
+@import "https://unpkg.com/open-props/animations.min.css";
+@import "https://unpkg.com/open-props/sizes.min.css";
+@import "https://unpkg.com/open-props/gradients.min.css";
+/* see PropPacks for the full list */
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--size-fluid-3);
+}
+
+section {
+  padding: var(--size-fluid-3);
+  box-shadow: var(--shadow-3);
+}
+
+h1 {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+h2 {
+  padding: var(--size-fluid-3);
+}
+
+li {
+  list-style-type: none;
+}
