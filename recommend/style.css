@@ -29,7 +29,6 @@ main {
 
 section {
   padding: var(--size-fluid-3);
-  box-shadow: var(--shadow-3);
 }
 
 h1 {
@@ -38,9 +37,19 @@ h1 {
 }
 
 h2 {
-  padding: var(--size-fluid-3);
+  padding: var(--size-fluid-3) 0;
 }
 
-li {
-  list-style-type: none;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: var(--size-fluid-3);
+}
+
+.list > * {
+  box-shadow: var(--shadow-5);
 }
