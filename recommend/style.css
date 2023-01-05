@@ -50,6 +50,7 @@ h2 {
   gap: var(--size-fluid-3);
 }
 
-.list > * {
+.list > div {
+  display: block;
   box-shadow: var(--shadow-5);
 }
