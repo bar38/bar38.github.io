@@ -34,6 +34,7 @@ section {
 h1 {
   margin: 3rem auto;
   text-align: center;
+  font-size: clamp(2rem, 2.5vw, 3rem);
 }
 
 h2 {
